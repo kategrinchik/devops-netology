@@ -92,13 +92,5 @@ variable "vm_metadata" {
     serial-port-enable = number
     ssh-keys           = string
 })
-  default     = { serial-port-enable = 1, ssh-keys = "ubuntu:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIANfeDOUk5QfKQPLLc7f15HsWTmjVsm4LacWO5WMnQne" }
+  default     = { serial-port-enable = 1, ssh-keys = "/здесь интегрирован публичный ключ ssh/" }
 }
-
-###ssh vars
-
-#variable "vms_ssh_root_key" {
-#  type        = string
-#  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIANfeDOUk5QfKQPLLc7f15HsWTmjVsm4LacWO5WMnQne"
-#  description = "ssh-keygen -t ed25519"
-#}
