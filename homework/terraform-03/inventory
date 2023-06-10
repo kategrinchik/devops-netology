@@ -1,0 +1,11 @@
+[webservers]
+
+homework03-develop-platform-web-0   ansible_host=158.160.108.239
+homework03-develop-platform-web-1   ansible_host=158.160.105.47
+[databases]
+
+homework03-develop-platform-db-0   ansible_host=158.160.107.251
+homework03-develop-platform-db-1   ansible_host=158.160.96.88
+[storage]
+
+netology-develop-platform-storage   ansible_host=51.250.94.252
