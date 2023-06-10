@@ -1,6 +1,0 @@
-[webservers]
-
-homework03-develop-platform-web-0   ansible_host=51.250.78.235
-homework03-develop-platform-web-1   ansible_host=158.160.61.68
-homework03-develop-platform-db-0   ansible_host=130.193.36.188
-homework03-develop-platform-db-1   ansible_host=158.160.40.25
